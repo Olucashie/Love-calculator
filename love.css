@@ -1,0 +1,142 @@
+body{
+    background-image: url(./bg.jpeg);
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 100vh;
+    margin: 200px;
+    /* margin-left: 200px; */
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    background-color: rgba(0, 0, 0, 0.811);
+    background-blend-mode: darken;
+    
+}
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+.ife1{
+    margin-left: 120px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 3px solid yellow;
+    position: absolute;
+    top: 50px;
+}
+.inp1{
+    height: 40px;
+    width: 400px;
+    font-size:30px ;
+    outline: none;
+    border: 3px solid yellow;
+    padding: 10px;
+    animation: blinker 2s linear infinite;
+    text-align: center;
+}
+.ife2{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 3px solid orangered;
+    margin-left: 1000px;
+    position: absolute;
+    top: 50px;
+}
+.inp2{
+    margin-left: 880px;
+    position: absolute;
+    top: 190px; 
+    height: 40px;
+    width: 400px;
+    font-size:30px ;
+    outline: none;
+    border: 3px solid red;
+    padding: 10px;
+    animation: blinker 2s linear infinite;
+    text-align: center;
+    }
+    @keyframes blinker {
+        5% {
+            color: rgb(158, 0, 89);
+        }
+        20% {
+            color: rgb(255, 0, 84);
+        }
+        30% {
+            color: rgb(255, 84, 0);
+        }
+        40% {
+            color: rgb(255, 189, 0);
+        }
+        50% {
+            color: rgb(137, 252, 0);
+        }
+        60% {
+            color: rgb(239, 71, 231);
+        }
+        70% {
+            color: rgb(64, 249, 252);
+        }
+        80% {
+            color: rgb(239, 18, 18);
+        }
+        90% {
+            color: rgb(6, 198, 93);
+        }
+        100% {
+            color: rgb(0, 34, 255);
+        }
+        }
+        #calc{
+            height: 60px;
+            width: 500px;
+            font-size: 30px;
+            padding: 10px;
+            margin-left: 430px;
+            animation: blinker 2s linear infinite;
+            background-color: black;
+            border: 2px solid white;
+            margin-top: 100px;
+        }
+        #calc:hover{
+            background-color: rgb(53, 51, 51);
+        }
+        .tor{
+            height: auto;
+            width: 700px;
+            background-color: white;
+            border: 5px solid black;
+            margin-top: 90px;
+            margin-left: 300px;
+            padding: 20px;
+            text-align: center;
+            animation: blinker 2s linear infinite;
+        }
+
+        @media screen and (max-width:781px){
+            body{
+                display:block;
+                justify-content: center;
+                align-items:center;
+            }
+            .lover1{
+                display:flex;
+                justify-content: flex-start;
+                
+
+
+            }
+        }
