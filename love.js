@@ -20,7 +20,7 @@ if (ololufe1 == "" || ololufe2 == "") {
     display.innerHTML = `
     <h1 class="display-6"> <b style="font-size:1em;"> ✔✔✔</b>
         <br>
-            <p style="color:green; animation: blinker 2s linear infinite;">You and ${ololufe1} match</P> 
+            <p style="color:green; animation: blinker 2s linear infinite;">${ololufe1} and ${ololufe2} match</P> 
             <b style="font-size:1em;">${randomNumber}%</b>
             <p style="color:green; animation: blinker 2s linear infinite;">So This Is Love🙈 💗${ololufe1}</P> 
         </h1>
@@ -32,9 +32,9 @@ if (ololufe1 == "" || ololufe2 == "") {
     display.innerHTML = `
     <h1 class="display-6"> <b style="font-size:1em;"> ⚠⚠⚠</b>
         <br>
-            <p style="color:yellow; animation: blinker 2s linear infinite;">You and ${ololufe1} match</P> 
+            <p style="color:yellow; animation: blinker 2s linear infinite;">${ololufe1} and ${ololufe2} match</P> 
             <b style="font-size:1em;">${randomNumber}%</b>
-            <p style="color:yellow; animation: blinker 2s linear infinite;">${ololufe2}!! Anu Re Se Mi</P> 
+            <p style="color:yellow; animation: blinker 2s linear infinite;">${ololufe1}!! Anu Re Se Mi</P> 
         </h1>
     `
     male.value = ""
@@ -44,9 +44,9 @@ if (ololufe1 == "" || ololufe2 == "") {
         display.innerHTML = `
         <h1 class="display-6"> <b style="font-size:1em;"> 😈😈😈</b>
             <br>
-                <p style="color:yellow; animation: blinker 2s linear infinite;">You and ${ololufe1} match</P> 
+                <p style="color:yellow; animation: blinker 2s linear infinite;">${ololufe1} and ${ololufe2} match</P> 
                 <b style="font-size:1em;">${randomNumber}%</b>
-                <p style="color:yellow; animation: blinker 2s linear infinite;">Don't trust ${ololufe1} U go dey trust for love😈😈😈 oju re abo</P> 
+                <p style="color:yellow; animation: blinker 2s linear infinite;">Don't trust ${ololufe1}, ${ololufe2} U go dey trust for love😈😈😈 oju re abo</P> 
             </h1>
         `
         male.value = ""
@@ -56,7 +56,7 @@ if (ololufe1 == "" || ololufe2 == "") {
         display.innerHTML = `
         <h1 class="display-6"> <b style="font-size:1em;"> 😆😆😆</b>
             <br>
-                <p style="color:red; animation: blinker 2s linear infinite;">You and ${ololufe1} match</P> 
+                <p style="color:red; animation: blinker 2s linear infinite;">${ololufe1} and ${ololufe2} match</P> 
                 <b style="font-size:1em;">${randomNumber}%</b>
                 <p style="color:red; animation: blinker 2s linear infinite;">Iku Ife Pae 😆😆</P> 
             </h1>
@@ -68,7 +68,7 @@ if (ololufe1 == "" || ololufe2 == "") {
         display.innerHTML = `
         <h1 class="display-6"> <b style="font-size:1em;">🚩🚩🚩</b>
             <br>
-                <p style="color:red; animation: blinker 2s linear infinite;">You and ${ololufe1} match</P> 
+                <p style="color:red; animation: blinker 2s linear infinite;">${ololufe1} and ${ololufe2} match</P> 
                 <b style="font-size:1em;">${randomNumber}%</b>
                 <p style="color:red; animation: blinker 2s linear infinite;">Oya 😁😁 Sope OtIlOr</P> 
             </h1>
@@ -80,7 +80,7 @@ if (ololufe1 == "" || ololufe2 == "") {
         display.innerHTML = `
         <h1 class="display-6"> <b style="font-size:1em;"> 😀😀😁</b>
             <br>
-                <p style="color:red; animation: blinker 2s linear infinite;">You and ${ololufe1} match</P> 
+                <p style="color:red; animation: blinker 2s linear infinite;">${ololufe1} and ${ololufe2} match</P> 
                 <b style="font-size:1em;">${randomNumber}%</b>
                 <p style="color:red; animation: blinker 2s linear infinite;">Breakfast on d bed 😁</P> 
             </h1>
@@ -90,5 +90,9 @@ if (ololufe1 == "" || ololufe2 == "") {
         lessThanTen.play()
 }
 }
+// function showw(){
+//     window.location.href = "Calculator.html"
+// }
+
 
 

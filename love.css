@@ -1,12 +1,14 @@
 body{
-    background-image: url(./bg.jpeg);
-    /* background-repeat: no-repeat; */
+    background-image: url(ll5.jpg);
+    background-position-x: center ;
+    background-position-y:center ;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    margin: 200px;
-    /* margin-left: 200px; */
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
+    /* margin: 200px; */
+    /* margin-right: 2000px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
     background-color: rgba(0, 0, 0, 0.811);
     background-blend-mode: darken;
     
@@ -35,6 +37,11 @@ body{
     border: 3px solid yellow;
     position: absolute;
     top: 50px;
+}
+.warn{
+    animation: blinker 2s linear infinite;
+    text-align: center;
+
 }
 .inp1{
     height: 40px;

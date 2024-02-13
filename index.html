@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="love.css">
     <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body style="background-color: rgba(0, 0, 0, 0.811);
+<body style="background-color: rgba(0, 0, 0, 0.511);
 background-blend-mode: darken;">
     <div class="container col-10 col-lg-7 shadow-sm mx-ato my-5 p-2" style="box-shadow: 0 0 70px gray;">
+        <h3 class="text-center" style=" animation: blinker 2s linear infinite;">Love Calculator</h3>
         <div class="row">
         <div class="col-6">
-            <img src="./lover1.png" alt="" class="w-100">
+            <img src="./lover1.png" alt="" class="w-50">
             <input type="text" class="form-control" placeholder="😍Ololufe {Male}😍" id="male">
         </div>
         <div class="col-6">
 
-            <img src="./lover2.png" alt="" class="w-100">
+            <img src="./lover2.png" alt="" class="w-50">
             <input type="text" class="form-control" placeholder="😍Ololufe {Female}😍 " id="female">
         </div>
     <button id="calc" onclick="show()" class="btn-btn-dark col-10 mx-auto"> <marquee behavior="" direction="">
     <span style=" animation: blinker 2s linear infinite;"> 💌 🙈 💗Calculate 🙈 💗💌</span></marquee> </button>
+   
     <div id="display" class="mx-auto my-5 col-10 bg-light text-center" style="background-color: red; height: auto;"></div>
 </div>
 </div>
